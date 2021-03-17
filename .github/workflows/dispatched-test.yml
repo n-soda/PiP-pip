@@ -30,8 +30,8 @@ jobs:
 
     steps:
 
-      name: dispatched event
-      run: |
+      - name: dispatched event
+        run: |
         echo "github.event.inputs.arg1=<${{ github.event.inputs.arg1 }}>"
         echo "github.event.inputs.arg2=<${{ github.event.inputs.arg2 }}>"
         echo "github.event.inputs.arg2=<${{ github.event.inputs.arg3 }}>"
