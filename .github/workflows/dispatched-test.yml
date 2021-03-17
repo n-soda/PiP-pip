@@ -36,7 +36,7 @@ jobs:
           echo "github.event.inputs.arg1=<${{ github.event.inputs.arg1 }}>"
           echo "github.event.inputs.arg2=<${{ github.event.inputs.arg2 }}>"
           echo "github.event.inputs.arg2=<${{ github.event.inputs.arg3 }}>"
-          echo "github.repository_owner=<${{ github.repository_owner }>}"
+          echo "github.repository_owner=<${{ github.repository_owner }}>"
           echo "github.repository=<${{ github.repository }}>"
           echo "github.sha=<${{ github.sha }}>"
           echo "github.actor=<${{ github.actor }}>"
