@@ -3,6 +3,8 @@ name: test for repository_dispatch - acceptor side
 on: 
   push:
 
+  pull-request:
+
   repository_dispatch:
 
   workflow_dispatch:
